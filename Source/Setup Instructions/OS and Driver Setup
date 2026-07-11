@@ -90,6 +90,3 @@ step 11:
 run gpio-pedal
   gpio-pedal -c ~/gpio-pedal-config.yaml
 
-
-
-
