@@ -26,14 +26,11 @@ links to guides for dependency and driver installation:
 6. https://www.waveshare.com/wiki/WM8960_Audio_HAT
 7. https://gpiozero.readthedocs.io/en/stable/
 
-
-
-
-
+For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
+<img width="890" height="602" alt="image" src="https://github.com/user-attachments/assets/4ea39510-87a2-4e47-91d9-92dd60c50c27" />
 
 
 MISSING:
-For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
 Software
 A screenshot of a full 3D model of your project
 
