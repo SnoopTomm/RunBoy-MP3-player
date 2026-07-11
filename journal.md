@@ -102,8 +102,12 @@ These setup instructions include:
 
 I included all the download links to many of my dependencies in a txt file as well as the readme
 
-this left my checklist on my build planning down to the following:
 
+My next step was to configure my device to turn on QMMP player automatically always full screen
+
+
+
+this left my checklist on my build planning down to the following:
 
 Add screenshot of case 3D model to readme
 
@@ -115,7 +119,4 @@ Add screenshot of case 3D model to readme
 
 Volume knob code
 
-Power switch code
-
-Turn on mp3 player automatically always full screen
 
