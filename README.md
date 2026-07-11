@@ -32,7 +32,8 @@ links to guides for dependency and driver installation:
 8. https://pypi.org/project/gpio-pedal/
 
 For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
-<img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/0379f474-6b25-4136-bfc5-9ed030be7a47" />
+<img width="1220" height="663" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/161fdfcc-3c10-455d-bc47-0dfa542f197d" />
+
 
 
 To setup this device, Written setup instructions for the Operating System, Drivers, Music Player, and WINAMP themes can be found in the Setup Instructions Folder of this repository, While the code developed for the buttons, volume Knob, and Power Switch can be found in the Software folder of this repository.
