@@ -90,3 +90,25 @@ step 11:
 run gpio-pedal
   gpio-pedal -c ~/gpio-pedal-config.yaml
 
+step 12
+Make QMMP run fullscreen auto
+  mkdir -p ~/.config/autostart
+  nano ~/.config/autostart/qmmp.desktop
+(paste)
+    [Desktop Entry]
+    Type=Application
+    Name=QMMP MP3 Player
+    Exec=sh -c "sleep 5 && qmmp -f"
+    StartupNotify=false
+    Terminal=false
+CTRL + O
+Enter
+CTRL + X
+
+step 13
+Make Pi boot straight to desktop
+  sudo raspi-config
+    System Options
+      - Boot / Auto Login
+      - Desktop Autologin
+
