@@ -30,7 +30,8 @@ links to guides for dependency and driver installation:
 7. https://gpiozero.readthedocs.io/en/stable/
 
 For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
-<img width="890" height="602" alt="image" src="https://github.com/user-attachments/assets/4ea39510-87a2-4e47-91d9-92dd60c50c27" />
+<img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/0379f474-6b25-4136-bfc5-9ed030be7a47" />
+
 
 
 MISSING:
