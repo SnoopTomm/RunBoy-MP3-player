@@ -1,6 +1,9 @@
 # RunBoy-MP3-player
 @ walkman inspired mp3 player that runs on linux using winamp themes built using a raspberry pi zero 2
 
+
+<img width="2245" height="1587" alt="RUN-BOY" src="https://github.com/user-attachments/assets/b6dd8ea5-85c9-4ad7-b983-e53ee1914c1b" />
+
 RunBoy is a Walkman-inspired MP3 player that runs on a Raspberry Pi Zero 2 using the Linux operating system. In addition, it can run old-school Winamp themes as it is designed to play music using the program QMMP. Any and all MP3s and music files played on this music player should be properly bought/licensed, which can be done from sites such as Bandcamp.
 
 Why did I start this project? When I was trying to fix my old laptop by changing the operating system, I came across how certain music players compatible with Arch Linux could still run old vintage Winamp themes. These themes made me wonder if perhaps I could build an MP3 player that runs on Linux due to how lightweight it was as an operating system. I was also inspired by the look of old technology, particularly music players such as the Sony Walkman and early iPod competitors.
@@ -26,14 +29,11 @@ links to guides for dependency and driver installation:
 6. https://www.waveshare.com/wiki/WM8960_Audio_HAT
 7. https://gpiozero.readthedocs.io/en/stable/
 
-
-
-
-
+For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
+<img width="890" height="602" alt="image" src="https://github.com/user-attachments/assets/4ea39510-87a2-4e47-91d9-92dd60c50c27" />
 
 
 MISSING:
-For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
 Software
 A screenshot of a full 3D model of your project
 
