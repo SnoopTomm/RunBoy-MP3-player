@@ -1,0 +1,13 @@
+https://www.raspberrypi.com/software/operating-systems/
+
+https://skins.webamp.org/
+
+https://qmmp.ylsoftware.com/
+
+https://wiki.dfrobot.com/dfr0528/docs/19884
+
+https://www.elecrow.com/pub/wiki/2.8-inch_IPS_SPI_LCD_Capacitive_Touch_Display_Module_With_ILI9341_Driver-240x320_Resolution_Arduino_Compatible.html
+
+https://www.waveshare.com/wiki/WM8960_Audio_HAT
+
+https://gpiozero.readthedocs.io/en/stable/

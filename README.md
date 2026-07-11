@@ -7,6 +7,26 @@ Why did I start this project? When I was trying to fix my old laptop by changing
 
 No PCB was designed for this project, as pieces are to be soldered to the pins or connected with bendable cables in order to make the device more compact.
 
+Software development for the buttons and the setup of drivers is in progress, although on hold until components arive and can be tested.
+
+Dependencies and Drivers:
+1. Raspberry Pi OS Lite (64-bit)
+2. WM8960 Audio HAT driver
+3. Capacitive Touch Display driver
+4. webamp skins
+5. DFRobot example code and setup for UPS HAT
+6. QMMP
+7. gpiozero
+
+links to guides for dependency and driver instalation:
+
+1. https://www.raspberrypi.com/software/operating-systems/
+2. https://skins.webamp.org/
+3. https://qmmp.ylsoftware.com/
+4. https://wiki.dfrobot.com/dfr0528/docs/19884
+5. https://www.elecrow.com/pub/wiki/2.8-inch_IPS_SPI_LCD_Capacitive_Touch_Display_Module_With_ILI9341_Driver-240x320_Resolution_Arduino_Compatible.html
+6. https://www.waveshare.com/wiki/WM8960_Audio_HAT
+7. https://gpiozero.readthedocs.io/en/stable/
 
 
 
