@@ -5,9 +5,7 @@ RunBoy is a walkman inspired mp3 player that runs on a raspberry pi zero 2 using
 
 Why did I start this project? When I was trying to fix my old laptop by changing the opperating system, I came across how certain music playerscompatible with arcg linux could still run old vintage winamp themes. These themes made me wonder i perhaps I could build an MP3 player that runs on Linux, due to how lightweoght it was as an Operating system. I was also inspired by the look of old technology, particularly music players such ass the sony walkman and early ipod competitors.
 
-No PCB was designed for this project, as pieces are to be soldered to the pins or connected with bendable cables in order to make the device more compact.
-
-Software development for the buttons and the setup of drivers is in progress, although on hold until components arive and can be tested.
+No PCB was needed for this project, as pieces are to be soldered to the pins or connected with bendable cables in order to make the device more compact.
 
 Dependencies and Drivers:
 1. Raspberry Pi OS Lite (64-bit)
@@ -34,11 +32,9 @@ links to guides for dependency and driver instalation:
 
 
 
-
-
+MISSING:
 For the purposes of this build i have designed a hybrid wiring schematic to showcase the design of the electronic
-
-
+Software
 A screenshot of a full 3D model with your project
 
 
