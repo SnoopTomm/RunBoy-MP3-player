@@ -33,9 +33,39 @@ the follwing list details the parts i need and where i plan to buy them from:
 
 <img width="1523" height="789" alt="image" src="https://github.com/user-attachments/assets/b3282cab-b3fb-462b-a7c6-487ad1c956b7" />
 
-Before designing the case as a 3d model i do want to make sure I get these parts to work together and run the program, also i might add other physical controls to the designn after getting the prototype to work.
 
 controls i might add afterwards (less necessary):
 1. skip button
 2. play button
 3. previous button
+
+# July 11: Streamlined design, created neater sketches of parts and casing, changed parts used for the product to work.
+
+I spent the day researching more effective parts to use for this project that would minimize the size of the mp3 player, further research aslo allowed me to removie conflicting parts, unnecesary cables, find cheaper alternatives to parts, and create an overall better build. In addition i designed a prototype shell that may be subject to further change
+
+Heres the improved list of parts (RunBoy 2.0):
+1. https://www.adafruit.com/product/6008
+2. https://www.waveshare.com/wm8960-audio-hat.htm
+3. https://www.elecrow.com/2-8-ips-spi-lcd-capacitive-touch-module-ili9341-driver-240-320-resolution.html
+4. https://www.dfrobot.com/product-1932.html
+5. https://www.aliexpress.us/item/3256809054033588.html?spm=a2g0o.productlist.main.9.313eCYZmCYZmZm&aem_p4p_detail=202607102232262157500981886800007304693&algo_pvid=b1e3cc77-1e6c-4e41-82ce-3de99637d10c&algo_exp_id=b1e3cc77-1e6c-4e41-82ce-3de99637d10c-8&pdp_ext_f=%7B%22order%22%3A%221013%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%2114.99%216.99%21%21%2114.99%216.99%21%40212a6e2917837479466934107e61a3%2112000048437368273%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acbbf39d4%3Bm03_new_user%3A-29895%3BpisId%3A5000000207262906&curPageLogUid=7OM6lVLHFe1L&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009240348340%7C_p_origin_prod%3A&search_p4p_id=202607102232262157500981886800007304693_7
+6. https://www.aliexpress.us/item/3256808670191342.html?spm=a2g0o.productlist.main.15.15e36ac1qX1hFa&algo_pvid=1998479f-e8a5-45b0-8fe7-877f3058d815&algo_exp_id=1998479f-e8a5-45b0-8fe7-877f3058d815-14&pdp_ext_f=%7B%22order%22%3A%22168%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%212.39%210.99%21%21%2116.16%216.71%21%40212e532617837514965934357e6c58%2112000046963609405%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acbbf39d4%3Bm03_new_user%3A-29895%3BpisId%3A5000000207262948&curPageLogUid=2MQMTnvESN8b&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005008856506094%7C_p_origin_prod%3A
+7. https://www.amazon.com/Soldering-Adjustable-Temperature-Multimeter-Desoldering/dp/B09VXQ221K?sr=8-11
+8. https://www.alibaba.com/product-detail/Retro-Foldable-Over-ear-Headphones-Wired_1601209006313.html?spm=a2700.prosearch.normal_offer.d_image.93e267afvajTKs&priceId=e2a0d8d91a834ebeae6c6f2182d23f02&priceId=e2a0d8d91a834ebeae6c6f2182d23f02
+9. https://www.aliexpress.us/item/3256801334498498.html?spm=a2g0o.productlist.main.1.7b8eQ03rQ03r1T&algo_pvid=aedffa9b-6e19-4d11-afcb-7ab4abf3509e&algo_exp_id=aedffa9b-6e19-4d11-afcb-7ab4abf3509e-0&pdp_ext_f=%7B%22order%22%3A%221000%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.56%211.99%21%21%213.56%211.99%21%402101528c17837481449906811e10c8%2112000033677596105%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acbbf39d4%3Bm03_new_user%3A-29895%3BpisId%3A5000000210913316&curPageLogUid=OVBC5RW9sUt2&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005001520813250%7C_p_origin_prod%3A
+10. https://www.aliexpress.us/item/3256812453298792.html?spm=a2g0o.productlist.main.5.135epVDKpVDKrD&algo_pvid=0ece0587-faca-45fe-ae74-ce0fdc49a8e5&algo_exp_id=0ece0587-faca-45fe-ae74-ce0fdc49a8e5-4&pdp_ext_f=%7B%22order%22%3A%222%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%212.37%212.30%21%21%2115.98%2115.53%21%4021016b6017837514211408378e1e25%2112000058939330286%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acbbf39d4%3Bm03_new_user%3A-29895&curPageLogUid=3WOHw9kNSGZ4&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005012639613544%7C_p_origin_prod%3A
+11. https://www.aliexpress.us/item/3256808837710631.html?spm=a2g0o.productlist.main.19.6be3169d9IfpEl&algo_pvid=60b4bbc2-94ab-41db-91f7-1741716e5e9a&algo_exp_id=60b4bbc2-94ab-41db-91f7-1741716e5e9a-18&pdp_ext_f=%7B%22order%22%3A%2249%22%2C%22eval%22%3A%221%22%2C%22fromPage%22%3A%22search%22%7D&pdp_npi=6%40dis%21USD%213.53%210.99%21%21%213.53%210.99%21%402141115b17837553411484481e35d9%2112000047618726921%21sea%21US%210%21ABX%211%210%21n_tag%3A-29910%3Bd%3Acbbf39d4%3Bm03_new_user%3A-29895%3BpisId%3A5000000207262948&curPageLogUid=xfWjiIGx5BKH&utparam-url=scene%3Asearch%7Cquery_from%3A%7Cx_object_id%3A1005009024025383%7C_p_origin_prod%3A
+12. https://www.amazon.com/Connector-Solderless-Multicolor-Electronic-Breadboard/dp/B09FPGT7JT?sr=8-7
+13. https://www.amazon.com/Patriot-Micro-Flash-Memory-Card/dp/B08KSSXKYR?sr=8-4
+
+
+Then I designed a rough draft for what the casing may look like
+<img width="2509" height="1596" alt="Untitled" src="https://github.com/user-attachments/assets/fa01e07f-0e55-41db-aa26-e02f32b87220" />
+
+Afterwards, I created a diagram to verify that the build would connect
+<img width="2509" height="1596" alt="Diagram" src="https://github.com/user-attachments/assets/b566a9aa-205a-4e4a-be8b-0416eab6d251" />
+
+This gave me more clarity to develop a more detailed Design for the case
+<img width="2414" height="1596" alt="model" src="https://github.com/user-attachments/assets/afc1ddd6-8df2-4ad6-b374-cab1cd8647da" />
+
+
