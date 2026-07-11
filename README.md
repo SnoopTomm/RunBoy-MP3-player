@@ -33,10 +33,10 @@ For the purposes of this build, I have designed a hybrid wiring schematic to sho
 <img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/0379f474-6b25-4136-bfc5-9ed030be7a47" />
 
 
+To setup this device, Written setup instructions for the Operating System, Drivers, Music Player, and WINAMP themes can be found in the Setup Instructions Folder of this repository, While the code developed for the buttons, volume Knob, and Power Switch can be found in the Software folder of this repository.
 
-MISSING:
-Software
-A screenshot of a full 3D model of your project
+
+INSERT A screenshot of a full 3D model of your case
 
 
 
