@@ -71,3 +71,25 @@ step 8:
 enable service to start at booot
   sudo systemctl enable fbcp.service
   sudo systemctl start fbcp.service
+
+step 9:
+Install gpio-pedal
+  pip3 install gpio-pedal
+
+step 10:
+crate configuration file
+  cat > ~/gpio-pedal-config.yaml << 'EOF'
+  # Button 1 (GPIO17) -> Space (Play/Pause)
+  # Button 2 (GPIO29) -> B (Next Track)
+
+  17: "space"
+  29: "b"
+  EOF
+
+step 11:
+run gpio-pedal
+  gpio-pedal -c ~/gpio-pedal-config.yaml
+
+
+
+
