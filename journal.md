@@ -90,7 +90,8 @@ I also finished my bom.csv
 | **Total** | | | | | | | **$192.38** |
 
 This allowed me to then create a wiring diagram/schematic hybrid for my project
-<img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/b3874962-726d-44c2-8f0d-82b004afcbd9" />
+<img width="1220" height="663" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/1ca227be-6414-43a6-bf36-cbe413e19c05" />
+
 
 
 After finishing my wiring diagram i read through the wikis and checked the correct pins to use in order to design setup instructions for the build in linux which i includede both in the new setup instructions folder I created and in the new source folder I made.
