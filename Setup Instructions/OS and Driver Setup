@@ -50,7 +50,7 @@ Install driver and dependencies for the display
   make -j4
   sudo ./fbcp-ili9341
 
-Step 8: 
+Step 9: 
 make the screen permanently functional
   sudo nano /etc/systemd/system/fbcp.service
 (paste the following)
@@ -67,7 +67,7 @@ make the screen permanently functional
 
     [Install]
     WantedBy=multi-user.target
-step 8:
+step 10:
 enable service to start at booot
   sudo systemctl enable fbcp.service
   sudo systemctl start fbcp.service
