@@ -46,7 +46,7 @@ INSERT A screenshot of a full 3D model of your case
 
 | Item | Quantity | Part | Description | Supplier | Link | Unit Price | Total |
 |------|---------:|------|-------------|----------|------|-----------:|------:|
-| 1 |1|Raspberry Pi Zero 2W with Header|Micro-Computer|Adafruit|https://www.adafruit.com/product/6008|$19.80| |
+| 1 |1|Raspberry Pi Zero 2W kit|Micro-Computer|fastshippingmart|https://www.ebay.com/itm/188561108959?_skw=raspberry+pi+zero+2+w&itmmeta=01KX95805PABN6JVNN1KDTG1RZ&hash=item2be71e2fdf:g:aQcAAeSwxsNqPbLR&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBjF6NjBc1WOXsvrWXYbKlcGsfMWt1KHX19IL2rFkX%2F%2B2wY%2FgLB9PW0yvYMeAbc3vXlBDsMX%2FVxCRP8xwKp%2Fh2WZr59zB0Lzq0dqi9VwcO03RZzFQefesxN667vLRF43JESwvrcwuOkJp05I8QSUd3gzo8Lsy3%2F5xU2kkvqZU1DbH%2B12HTyDeaS7BWJm6ebFrtpGr75DMspnQ3Gre1prQEEL8%2FHfkPMvfL5hBEKIhgmWxwqlug3LW77CpPycRGgifBX1biJXq9zYn8wz4nlxVUL%2F%2BsJnvZlMq5v5WTypM4PHw%3D%3D%7Ctkp%3ABk9SR_6CoKXqZw|$13.90| |
 | 2 |1|WM8960 Hi-Fi Sound Card HAT|Sound Card|Waveshare|https://www.waveshare.com/wm8960-audio-hat.htm|$18.99| |
 | 3 |1|2.8inch IPS SPI LCD Touch Display Module|Display|Elecrow|https://www.elecrow.com/2-8-ips-spi-lcd-capacitive-touch-module-ili9341-driver-240-320-resolution.html|$10.90| |
 | 4 |1|UPS HAT for Raspberry Pi Zero|Power Supply|DFRobot|https://www.dfrobot.com/product-1932.html|$19.90| |
@@ -60,4 +60,4 @@ INSERT A screenshot of a full 3D model of your case
 | 12 |2|Momentary Push Button|Buttons|FILN Online Store|https://www.aliexpress.us/item/1005009024025383.html|$3.53| |
 | 13 |1|Patriot LX Series Micro SD Flash Memory Card 32GB|Storage|Patriot Memory Store|https://www.amazon.com/Patriot-Micro-Flash-Memory-Card/dp/B08KSSXKYR?sr=8-4|$13.49| |
 | | |Estimated Shipping Costs + Tax|Shipping estimate to PO Box in Florida followed by carrier to Panama by sea (and tax estimate included)|MBE Panama|https://www.mbe-ca.com/|$40.00| |
-| **Total** | | | | | | | **$198.28** |
+| **Total** | | | | | | | **$192.38** |
