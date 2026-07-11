@@ -11,3 +11,5 @@ https://www.elecrow.com/pub/wiki/2.8-inch_IPS_SPI_LCD_Capacitive_Touch_Display_M
 https://www.waveshare.com/wiki/WM8960_Audio_HAT
 
 https://gpiozero.readthedocs.io/en/stable/
+
+https://pypi.org/project/gpio-pedal/
