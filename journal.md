@@ -68,4 +68,152 @@ Afterwards, I created a diagram to verify that the build would connect
 This gave me more clarity to develop a more detailed Design for the case
 <img width="2414" height="1596" alt="model" src="https://github.com/user-attachments/assets/afc1ddd6-8df2-4ad6-b374-cab1cd8647da" />
 
+Later in the day i revised my materials list to get rid of out of stock materials
+I also finished my bom.csv
+Item	Quantity	Part	Description	Supplier	Link	Unit Price	Total
+1	1	Raspberry Pi Zero 2W kit	Micro-Computer	fastshippingmart	https://www.ebay.com/itm/188561108959?_skw=raspberry+pi+zero+2+w&itmmeta=01KX95805PABN6JVNN1KDTG1RZ&hash=item2be71e2fdf:g:aQcAAeSwxsNqPbLR&itmprp=enc%3AAQALAAAA8GfYFPkwiKCW4ZNSs2u11xBjF6NjBc1WOXsvrWXYbKlcGsfMWt1KHX19IL2rFkX%2F%2B2wY%2FgLB9PW0yvYMeAbc3vXlBDsMX%2FVxCRP8xwKp%2Fh2WZr59zB0Lzq0dqi9VwcO03RZzFQefesxN667vLRF43JESwvrcwuOkJp05I8QSUd3gzo8Lsy3%2F5xU2kkvqZU1DbH%2B12HTyDeaS7BWJm6ebFrtpGr75DMspnQ3Gre1prQEEL8%2FHfkPMvfL5hBEKIhgmWxwqlug3LW77CpPycRGgifBX1biJXq9zYn8wz4nlxVUL%2F%2BsJnvZlMq5v5WTypM4PHw%3D%3D%7Ctkp%3ABk9SR_6CoKXqZw	$13.90	
+2	1	WM8960 Hi-Fi Sound Card HAT	Sound Card	Waveshare	https://www.waveshare.com/wm8960-audio-hat.htm	$18.99	
+3	1	2.8inch IPS SPI LCD Touch Display Module	Display	Elecrow	https://www.elecrow.com/2-8-ips-spi-lcd-capacitive-touch-module-ili9341-driver-240-320-resolution.html	$10.90	
+4	1	UPS HAT for Raspberry Pi Zero	Power Supply	DFRobot	https://www.dfrobot.com/product-1932.html	$19.90	
+5	1	974058 3.7V 3000mAh LiPo Battery Lithium Polymer Batteries	Battery	YouTu Battery Store	https://www.aliexpress.us/item/3256809054033588.html	$14.99	
+6	1	Soldering Iron Kit	Soldering Tools	KYZHXVO Store	https://www.amazon.com/Soldering-Adjustable-Temperature-Multimeter-Desoldering/dp/B09VXQ221K?sr=8-11	$16.99	
+7	1	Degree Rotary Encoder EC11 Push Button	Volume knob	Connector Assemble Store	https://www.aliexpress.us/item/3256812453298792.html	$2.29	
+8	1	Wire Silicone Insulation Tinned Copper	5 meter 28 AWG wire	Ammax Official Store	https://www.aliexpress.us/item/3256801334498498.html	$2.06	
+9	1	Retro Foldable Over-ear Headphones Wired	Wired Headphones	Shenzhen Smile Technology	https://www.alibaba.com/product-detail/Retro-Foldable-Over-ear-Headphones-Wired_1601209006313.html	$24.28 (sample+shipping)	
+10	1	Illuminated LED Toggle Switch	Power Switch	Connectore Store Store	https://www.aliexpress.us/item/3256808670191342.html	$4.07	
+11	1	Long Header Jumper Wire	40pcs 10cm Female to Female Header Jumper Cables	Chanzon Store	https://www.amazon.com/Connector-Solderless-Multicolor-Electronic-Breadboard/dp/B09FPGT7JT?sr=8-7	$6.99	
+12	2	Momentary Push Button	Buttons	FILN Online Store	https://www.aliexpress.us/item/1005009024025383.html	$3.53	
+13	1	Patriot LX Series Micro SD Flash Memory Card 32GB	Storage	Patriot Memory Store	https://www.amazon.com/Patriot-Micro-Flash-Memory-Card/dp/B08KSSXKYR?sr=8-4	$13.49	
+Estimated Shipping Costs + Tax	Shipping estimate to PO Box in Florida followed by carrier to Panama by sea (and tax estimate included)	MBE Panama	https://www.mbe-ca.com/	$40.00	
+Total							$192.38
+
+This allowed me to then create a wiring diagram/schematic hybrid for my project
+<img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/b3874962-726d-44c2-8f0d-82b004afcbd9" />
+
+After finishing my wiring diagram i read through the wikis and checked the correct pins to use in order to design setup instructions for the build in linux which i includede both in the new setup instructions folder I created and in the new source folder I made.
+These setup instructions include:
+step 1:
+Download both Pi OS Lite and the Raspberry Pi imager on your device to install the OS to your SD card.
+https://www.raspberrypi.com/software/
+https://www.raspberrypi.com/software/operating-systems/
+
+step 2: 
+Follow setup instructions given by the Raspberry Pi Imager application
+
+Step 3:
+After first booting up your mp3 player, run the following commands in your terminal
+  sudo apt update
+  sudo apt full-upgrade -y
+  sudo reboot
+
+Step 4:
+Enable the required Interfaces using your terminal
+  sudo raspi-config
+(Enable SPI and I2C)
+
+step 4.5: 
+Install latest version of GPIO Zero (optional)
+  sudo apt install python3-gpiozero -y
+
+step 5: 
+Install python Dependencies
+  sudo apt install python3-pip git python3-smbus i2c-tools -y
+  pip3 install pillow
+
+step 6:
+Install the WM8960 Audio Hat Driver by running the following commands
+  git clone https://github.com/waveshare/WM8960-Audio-HAT.git
+  cd WM8960-Audio-HAT
+  sudo chmod +x install.sh
+  sudo ./install.sh
+  sudo reboot
+
+step 7:
+verify sound card installation after reboot
+  aplay -l
+(WM8960 sound card should be Listed)
+
+step 8:
+Install driver and dependencies for the display
+  sudo apt-get install cmake
+  git clone https://github.com/juj/fbcp-ili9341.git
+  cd fbcp-ili9341
+  mkdir build
+  cd build
+  cmake -DUSE_BCM2835_GPU_MMAP=ON -DWAVESHARE_ST7735S_HAT=OFF -DILI9341=ON -DGPIO_TFT_DATA_CONTROL=25 -DGPIO_TFT_RESET_PIN=27 -DGPIO_TFT_BACKLIGHT=18 -DSPI_BUS_CLOCK_DIVISOR=8 ..
+  make -j4
+  sudo ./fbcp-ili9341
+
+Step 8: 
+make the screen permanently functional
+  sudo nano /etc/systemd/system/fbcp.service
+(paste the following)
+    [Unit]
+    Description=fbcp Service
+    After=multi-user.target
+
+    [Service]
+    Type=simple
+    ExecStart=/home/pi/fbcp-ili9341/build/fbcp-ili9341
+    WorkingDirectory=/home/pi/fbcp-ili9341/build
+    Restart=always
+    User=root
+
+    [Install]
+    WantedBy=multi-user.target
+step 8:
+enable service to start at booot
+  sudo systemctl enable fbcp.service
+  sudo systemctl start fbcp.service
+
+  (OS, driver, and button setup)
+
+  Instructions to be performed in terminal
+
+step 1: update package list
+  sudo apt update
+
+step 2: install QMMP
+  sudo apt install qmmp
+
+step 3: install plugins
+  sudo apt install qmmp-plugin-pack
+
+step 4: launch
+  qmmp
+
+  (qmmp setup)
+
+  step 1:
+download theme from https://skins.webamp.org/
+
+step 2:
+usr > share > qmmp > skins 
+drop archived theme
+
+step 3:
+Open Qmmp player
+settings
+open archived package
+
+theme setup
+
+I included all the download links to many of my dependencies in a txt file as well as the readme
+
+this left my checklist on my build planning down to the following:
+
+
+Add screenshot of case 3D model to readme
+
+3d mode production files
+
+3d model case source file
+
+3d model case picture in images
+
+Volume knob code
+
+Power switch code
+
+Turn on mp3 player automatically always full screen
 
