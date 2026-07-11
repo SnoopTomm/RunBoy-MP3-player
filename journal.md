@@ -93,115 +93,12 @@ This allowed me to then create a wiring diagram/schematic hybrid for my project
 <img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/b3874962-726d-44c2-8f0d-82b004afcbd9" />
 
 
-\\\\\\\\\\\
 After finishing my wiring diagram i read through the wikis and checked the correct pins to use in order to design setup instructions for the build in linux which i includede both in the new setup instructions folder I created and in the new source folder I made.
 These setup instructions include:
-step 1:
-Download both Pi OS Lite and the Raspberry Pi imager on your device to install the OS to your SD card.
-https://www.raspberrypi.com/software/
-https://www.raspberrypi.com/software/operating-systems/
-
-step 2: 
-Follow setup instructions given by the Raspberry Pi Imager application
-
-Step 3:
-After first booting up your mp3 player, run the following commands in your terminal
-  sudo apt update
-  sudo apt full-upgrade -y
-  sudo reboot
-
-Step 4:
-Enable the required Interfaces using your terminal
-  sudo raspi-config
-(Enable SPI and I2C)
-
-step 4.5: 
-Install latest version of GPIO Zero (optional)
-  sudo apt install python3-gpiozero -y
-
-step 5: 
-Install python Dependencies
-  sudo apt install python3-pip git python3-smbus i2c-tools -y
-  pip3 install pillow
-
-step 6:
-Install the WM8960 Audio Hat Driver by running the following commands
-  git clone https://github.com/waveshare/WM8960-Audio-HAT.git
-  cd WM8960-Audio-HAT
-  sudo chmod +x install.sh
-  sudo ./install.sh
-  sudo reboot
-
-step 7:
-verify sound card installation after reboot
-  aplay -l
-(WM8960 sound card should be Listed)
-
-step 8:
-Install driver and dependencies for the display
-  sudo apt-get install cmake
-  git clone https://github.com/juj/fbcp-ili9341.git
-  cd fbcp-ili9341
-  mkdir build
-  cd build
-  cmake -DUSE_BCM2835_GPU_MMAP=ON -DWAVESHARE_ST7735S_HAT=OFF -DILI9341=ON -DGPIO_TFT_DATA_CONTROL=25 -DGPIO_TFT_RESET_PIN=27 -DGPIO_TFT_BACKLIGHT=18 -DSPI_BUS_CLOCK_DIVISOR=8 ..
-  make -j4
-  sudo ./fbcp-ili9341
-
-Step 8: 
-make the screen permanently functional
-  sudo nano /etc/systemd/system/fbcp.service
-(paste the following)
-    [Unit]
-    Description=fbcp Service
-    After=multi-user.target
-
-    [Service]
-    Type=simple
-    ExecStart=/home/pi/fbcp-ili9341/build/fbcp-ili9341
-    WorkingDirectory=/home/pi/fbcp-ili9341/build
-    Restart=always
-    User=root
-
-    [Install]
-    WantedBy=multi-user.target
-step 8:
-enable service to start at booot
-  sudo systemctl enable fbcp.service
-  sudo systemctl start fbcp.service
-\\\\\\\\\\\
-  (OS, driver, and button setup)
-\\\\\\\\\\\
-  Instructions to be performed in terminal
-
-step 1: update package list
-  sudo apt update
-
-step 2: install QMMP
-  sudo apt install qmmp
-
-step 3: install plugins
-  sudo apt install qmmp-plugin-pack
-
-step 4: launch
-  qmmp
-\\\\\\\\\\\
-  (qmmp setup)
-\\\\\\\\\\\
-  step 1:
-download theme from https://skins.webamp.org/
-
-step 2:
-usr > share > qmmp > skins 
-drop archived theme
-
-step 3:
-Open Qmmp player
-settings
-open archived package
-\\\\\\\\\\\
+(OS, driver, and button setup)
+(qmmp setup)
 (theme setup)
-\\\\\\\\\\\
+
 I included all the download links to many of my dependencies in a txt file as well as the readme
 
 this left my checklist on my build planning down to the following:
