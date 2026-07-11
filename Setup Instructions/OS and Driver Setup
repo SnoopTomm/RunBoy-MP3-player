@@ -50,7 +50,7 @@ Install driver and dependencies for the display
   make -j4
   sudo ./fbcp-ili9341
 
-Step 9: 
+Step 8: 
 make the screen permanently functional
   sudo nano /etc/systemd/system/fbcp.service
 (paste the following)
@@ -67,7 +67,26 @@ make the screen permanently functional
 
     [Install]
     WantedBy=multi-user.target
-step 10:
+step 8:
 enable service to start at booot
   sudo systemctl enable fbcp.service
   sudo systemctl start fbcp.service
+
+step 9:
+Install gpio-pedal
+  pip3 install gpio-pedal
+
+step 10:
+crate configuration file
+  cat > ~/gpio-pedal-config.yaml << 'EOF'
+  # Button 1 (GPIO17) -> Space (Play/Pause)
+  # Button 2 (GPIO29) -> B (Next Track)
+
+  17: "space"
+  29: "b"
+  EOF
+
+step 11:
+run gpio-pedal
+  gpio-pedal -c ~/gpio-pedal-config.yaml
+
