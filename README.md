@@ -18,6 +18,7 @@ Dependencies and Drivers:
 5. DFRobot example code and setup for UPS HAT
 6. QMMP
 7. gpiozero
+8. gpio-pedal
 
 links to guides for dependency and driver installation:
 
@@ -28,6 +29,7 @@ links to guides for dependency and driver installation:
 5. https://www.elecrow.com/pub/wiki/2.8-inch_IPS_SPI_LCD_Capacitive_Touch_Display_Module_With_ILI9341_Driver-240x320_Resolution_Arduino_Compatible.html
 6. https://www.waveshare.com/wiki/WM8960_Audio_HAT
 7. https://gpiozero.readthedocs.io/en/stable/
+8. https://pypi.org/project/gpio-pedal/
 
 For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
 <img width="893" height="604" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/0379f474-6b25-4136-bfc5-9ed030be7a47" />
