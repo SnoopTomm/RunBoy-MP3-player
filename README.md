@@ -45,9 +45,8 @@ https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 INSERT A screenshot of a full 3D model of your case
 
 
-
-## Bill of Materials (BOM)
 (Disclaimer: I will have my friend 3d print the parts for me locally on his 3d printer so it is not included in the costs)
+## Bill of Materials (BOM)
 
 | Item | Quantity | Part | Description | Supplier | Link | Unit Price | Total |
 |------|---------:|------|-------------|----------|------|-----------:|------:|
