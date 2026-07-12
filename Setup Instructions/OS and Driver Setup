@@ -113,4 +113,19 @@ Make Pi boot straight to desktop
       - Desktop Autologin
 
 Step 14:
-
+Rotary Encoder Volume setup
+  sudo apt update
+  sudo apt install python3-pip python3-dev
+  sudo pip3 install pyalsaaudio
+  sudo pip3 install RPi.GPIO
+  cd /home/pi
+  wget https://gist.githubusercontent.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd/raw/bca7903822ab81bfba362c7dcd90532d98de6256/pi_encoder_volume.py
+  python3 /home/pi/pi_encoder_volume.py
+  (change audio mixer if needed)
+  sudo nano /etc/rc.local
+    (add this line before exit 0)
+  python3 /home/pi/pi_encoder_volume.py &
+  sudo chmod +x /etc/rc.local
+  sudo reboot
+  
+  
