@@ -105,6 +105,11 @@ I included all the download links to many of my dependencies in a txt file as we
 
 My next step was to configure my device to turn on QMMP player automatically always full screen
 
+Lastly for the day I used this tutorial on youtube in order to set up the volume encoder with the help of deepseek to adjust the premade code for my build and the terminal commands in download instructions
+https://www.youtube.com/watch?v=4kypUKRMGYk
+
+
+
 
 
 this left my checklist on my build planning down to the following:
@@ -116,7 +121,5 @@ Add screenshot of case 3D model to readme
 3d model case source file
 
 3d model case picture in images
-
-Volume knob code
 
 
