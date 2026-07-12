@@ -38,7 +38,8 @@ For the purposes of this build, I have designed a hybrid wiring schematic to sho
 
 
 
-To setup this device, Written setup instructions for the Operating System, Drivers, Music Player, and WINAMP themes can be found in the Setup Instructions Folder of this repository, While the code developed for the buttons, volume Knob, and Power Switch can be found in the Software folder of this repository.
+To setup this device, Written setup instructions for the Operating System, Drivers, Music Player, and WINAMP themes, buttons, and volume knob can be found in the Setup Instructions Folder of this repository. The software folder contains a copy of a fork o f shivasiddharth's rotary encoder code adjusted for this build. the link to this code can be found here:
+https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 
 
 INSERT A screenshot of a full 3D model of your case
