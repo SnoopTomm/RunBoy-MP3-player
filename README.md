@@ -30,6 +30,8 @@ links to guides for dependency and driver installation:
 6. https://www.waveshare.com/wiki/WM8960_Audio_HAT
 7. https://gpiozero.readthedocs.io/en/stable/
 8. https://pypi.org/project/gpio-pedal/
+9. https://gist.github.com/shivasiddharth/6aba5fa187c8ce463259f18eb7171a1f#file-pi_encoder_volume-py
+10. https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 
 For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
 <img width="1220" height="663" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/161fdfcc-3c10-455d-bc47-0dfa542f197d" />
