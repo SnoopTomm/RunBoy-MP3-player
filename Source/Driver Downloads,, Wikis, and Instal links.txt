@@ -13,3 +13,7 @@ https://www.waveshare.com/wiki/WM8960_Audio_HAT
 https://gpiozero.readthedocs.io/en/stable/
 
 https://pypi.org/project/gpio-pedal/
+
+https://gist.github.com/shivasiddharth/6aba5fa187c8ce463259f18eb7171a1f#file-pi_encoder_volume-py
+
+https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
