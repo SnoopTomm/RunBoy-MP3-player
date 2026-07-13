@@ -1,4 +1,4 @@
-# RunBoy-MP3-player
+<img width="1567" height="333" alt="image" src="https://github.com/user-attachments/assets/93021798-b325-431d-b21d-cc9aeb6536ab" /># RunBoy-MP3-player
 @ walkman inspired mp3 player that runs on linux using winamp themes built using a raspberry pi zero 2
 
 
@@ -32,6 +32,9 @@ links to guides for dependency and driver installation:
 8. https://pypi.org/project/gpio-pedal/
 9. https://gist.github.com/shivasiddharth/6aba5fa187c8ce463259f18eb7171a1f#file-pi_encoder_volume-py
 10. https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
+
+Big thanks to @shivasiddharth for allowing me to use his pi_encoder_volume code ^___^
+
 
 For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
 <img width="1220" height="663" alt="Hybrid Wiring Schematic" src="https://github.com/user-attachments/assets/161fdfcc-3c10-455d-bc47-0dfa542f197d" />
