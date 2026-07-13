@@ -122,4 +122,7 @@ Add screenshot of case 3D model to readme
 
 3d model case picture in images
 
+# July 12-13: Recieved permision from shivasiddharth through email in order to use his code
+<img width="1567" height="333" alt="image" src="https://github.com/user-attachments/assets/3ed20abe-a5ea-47d5-8289-6e448bfa6ba6" />
 
+(although the email was sent on july 11th at night, i only saw the message at july 12 due to falling asleep)
