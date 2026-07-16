@@ -1,9 +1,9 @@
-@ walkman inspired mp3 player that runs on linux using winamp themes built using a raspberry pi zero 2
+@ walkman-inspired MP3 player that runs on Linux using Winamp themes built using a Raspberry Pi Zero 2 W
 
 
 <img width="2245" height="1587" alt="RUN-BOY" src="https://github.com/user-attachments/assets/b6dd8ea5-85c9-4ad7-b983-e53ee1914c1b" />
 
-RunBoy is a Walkman-inspired MP3 player that runs on a Raspberry Pi Zero 2 using the Linux operating system. In addition, it can run old-school Winamp themes as it is designed to play music using the program QMMP. Any and all MP3s and music files played on this music player should be properly bought/licensed, which can be done from sites such as Bandcamp.
+RunBoy is a Walkman-inspired MP3 player that runs on a Raspberry Pi Zero 2 using the Linux operating system. In addition, it can run old-school Winamp themes, as it is designed to play music using the program QMMP. Any and all MP3s and music files played on this music player should be properly bought/licensed, which can be done from sites such as Bandcamp.
 
 Why did I start this project? When I was trying to fix my old laptop by changing the operating system, I came across how certain music players compatible with Arch Linux could still run old vintage Winamp themes. These themes made me wonder if perhaps I could build an MP3 player that runs on Linux due to how lightweight it was as an operating system. I was also inspired by the look of old technology, particularly music players such as the Sony Walkman and early iPod competitors.
 
@@ -12,7 +12,7 @@ No custom PCB was needed for this project, as the parts are to be soldered to th
 Dependencies and Drivers:
 1. Raspberry Pi OS Lite (64-bit)
 2. WM8960 Audio HAT driver
-3. Capacitive Touch Display driver
+3. Capacitive touch display driver
 4. Webamp skins
 5. DFRobot example code and setup for UPS HAT
 6. QMMP
@@ -33,7 +33,7 @@ links to guides for dependency and driver installation:
 10. https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 
 <img width="1567" height="333" alt="image" src="https://github.com/user-attachments/assets/93021798-b325-431d-b21d-cc9aeb6536ab" /># RunBoy-MP3-player
-Big thanks to @shivasiddharth for allowing me to use his pi_encoder_volume code ^___^
+Big thanks to @shivasiddharth for allowing me to use his pi_encoder_volume code. ^___^
 
 
 For the purposes of this build, I have designed a hybrid wiring schematic to showcase the design of the electronics.
@@ -41,10 +41,11 @@ For the purposes of this build, I have designed a hybrid wiring schematic to sho
 
 
 
-To setup this device, Written setup instructions for the Operating System, Drivers, Music Player, and WINAMP themes, buttons, and volume knob can be found in the Setup Instructions Folder of this repository. The software folder contains a copy of a fork o f shivasiddharth's rotary encoder code adjusted for this build. the link to this code can be found here:
+To set up this device, written setup instructions for the operating system, drivers, music player, WINAMP themes, buttons, and volume knob can be found in the Setup Instructions Folder of this repository. The software folder contains a copy of a fork of shivasiddharth's rotary encoder code adjusted for this build. The link to this code can be found here:
+
 https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 
-RunBoy Case 3d Model for print (files found in source and production):
+RunBoy Case 3D Model for print (files found in source and production):
 <img width="632" height="611" alt="Screenshot 2026-07-15 214956" src="https://github.com/user-attachments/assets/5245dd2a-7b91-48cd-981e-3dc12d9c766e" />
 <img width="582" height="581" alt="Screenshot 2026-07-15 215001" src="https://github.com/user-attachments/assets/ecda122a-b9a4-424d-be93-7490b7fbde91" />
 <img width="643" height="511" alt="Screenshot 2026-07-15 215008" src="https://github.com/user-attachments/assets/c51d1829-635e-486c-9087-e45756fd07c9" />
@@ -52,7 +53,7 @@ RunBoy Case 3d Model for print (files found in source and production):
 
 
 
-(Disclaimer: I will have my friend 3d print the parts for me locally on his 3d printer so it is not included in the costs)
+(Disclaimer: I will have my friend 3D print the parts for me locally on his 3D printer so it is not included in the total costs.)
 ## Bill of Materials (BOM)
 
 | Item | Quantity | Part | Description | Supplier | Link | Unit Price | Total |
