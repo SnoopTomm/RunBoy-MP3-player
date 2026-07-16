@@ -44,8 +44,12 @@ For the purposes of this build, I have designed a hybrid wiring schematic to sho
 To setup this device, Written setup instructions for the Operating System, Drivers, Music Player, and WINAMP themes, buttons, and volume knob can be found in the Setup Instructions Folder of this repository. The software folder contains a copy of a fork o f shivasiddharth's rotary encoder code adjusted for this build. the link to this code can be found here:
 https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 
+RunBoy Case 3d Model for print (files found in source and production):
+<img width="632" height="611" alt="Screenshot 2026-07-15 214956" src="https://github.com/user-attachments/assets/5245dd2a-7b91-48cd-981e-3dc12d9c766e" />
+<img width="582" height="581" alt="Screenshot 2026-07-15 215001" src="https://github.com/user-attachments/assets/ecda122a-b9a4-424d-be93-7490b7fbde91" />
+<img width="643" height="511" alt="Screenshot 2026-07-15 215008" src="https://github.com/user-attachments/assets/c51d1829-635e-486c-9087-e45756fd07c9" />
+<img width="2315" height="1596" alt="Labled Case Parts" src="https://github.com/user-attachments/assets/6e7f5a19-2da3-408d-a75b-320b5b0ed664" />
 
-INSERT A screenshot of a full 3D model of your case
 
 
 (Disclaimer: I will have my friend 3d print the parts for me locally on his 3d printer so it is not included in the costs)
