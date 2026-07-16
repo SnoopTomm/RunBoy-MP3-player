@@ -1,4 +1,3 @@
-<img width="1567" height="333" alt="image" src="https://github.com/user-attachments/assets/93021798-b325-431d-b21d-cc9aeb6536ab" /># RunBoy-MP3-player
 @ walkman inspired mp3 player that runs on linux using winamp themes built using a raspberry pi zero 2
 
 
@@ -33,6 +32,7 @@ links to guides for dependency and driver installation:
 9. https://gist.github.com/shivasiddharth/6aba5fa187c8ce463259f18eb7171a1f#file-pi_encoder_volume-py
 10. https://gist.github.com/SnoopTomm/6126b9ebb02bfc6efc2d0dcdfd4c44dd
 
+<img width="1567" height="333" alt="image" src="https://github.com/user-attachments/assets/93021798-b325-431d-b21d-cc9aeb6536ab" /># RunBoy-MP3-player
 Big thanks to @shivasiddharth for allowing me to use his pi_encoder_volume code ^___^
 
 
@@ -68,3 +68,4 @@ INSERT A screenshot of a full 3D model of your case
 | 13 |1|Patriot LX Series Micro SD Flash Memory Card 32GB|Storage|Patriot Memory Store|https://www.amazon.com/Patriot-Micro-Flash-Memory-Card/dp/B08KSSXKYR?sr=8-4|$13.49| |
 | | |Estimated Shipping Costs + Tax|Shipping estimate to PO Box in Florida followed by carrier to Panama by sea (and tax estimate included)|MBE Panama|https://www.mbe-ca.com/|$40.00| |
 | **Total** | | | | | | | **$192.38** |
+
