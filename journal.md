@@ -1,10 +1,10 @@
 ---
 
-title: RunBoy
+Title: RunBoy
 
-author: Tomas Mesa
+Author: Tomas Mesa
 
-description: Runboy is a portable MP3 player that runs on the Linux operating system.
+Description: Runboy is a portable MP3 player that runs on the Linux operating system.
 
 Created at: 02-10-2026
 
