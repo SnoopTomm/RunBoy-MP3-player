@@ -175,6 +175,7 @@ Add a screenshot of case 3D model to readme.
 <img width="582" height="674" alt="Screenshot 2026-07-15 115923" src="https://github.com/user-attachments/assets/b08663eb-20d7-4b5c-aa28-aae746499ee5" />
 
 <img width="698" height="562" alt="Screenshot 2026-07-15 115908" src="https://github.com/user-attachments/assets/869b3821-41b8-49f9-819a-8d4980b8b423" />
+I took time to adapt my original design to something more relistic given the measurements of the internal parts.
 
 # July 15: Finalized case design; added holes for ports, cables, and screws; exported as a 3D model and moved into Fusion 360
 
